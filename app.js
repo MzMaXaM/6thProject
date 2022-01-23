@@ -9,13 +9,13 @@ let coursePrice = 65
 let courseGoals = ['HTML', 'CSS', 'Javascript']
 
 // 2) Output ("alert") the three variable values
-// alert(goals)
+console.log(courseGoals)
 
 // 3) Try "grouping" the three variables together and still output their values thereafter
 let course = [ courseName, coursePrice, courseGoals ]
 
 // 4) Also output the second element in your "main goals" variable
-// alert(course[1])
+console.log(course[1])
 
 // 5) Add a custom command that does the following:
 //    - Use your "main goals" variable and access an element by its identifier
@@ -29,4 +29,4 @@ function alertTheRightInfo(nameOfObject, elem) {
 }
 
 // 6) Execute your custom command from (5) and output ("alert") the result
-// alert(alertTheRightInfo(course, 1))
+console.log(alertTheRightInfo(course, 1))
